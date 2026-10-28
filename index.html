@@ -20,13 +20,14 @@
     <header class="header">
         <div class="container nav-container">
             <img src="logo.jpeg.jpeg" alt="Logo Dr. Clean" class="logo"> 
-            <nav class="navbar">
-                <a href="#inicio">Início</a>
-                <a href="#servicos">Serviços</a>
-                <a href="#diferenciais">Diferenciais</a>
-                <a href="#portfolio">Portfólio</a>
-                <a href="#faq">Dúvidas</a>
-            </nav>
+         <nav class="navbar">
+    <a href="#inicio">Início</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#clinicas">Para Clínicas</a> <!-- Novo link adicionado -->
+    <a href="#diferenciais">Diferenciais</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#faq">Dúvidas</a>
+</nav>
             <a href="https://wa.me/5581993038011" target="_blank" class="btn-primary nav-btn">Fazer Orçamento</a>
         </div>
     </header>
@@ -36,7 +37,7 @@
         <div class="container">
             <h1>Dr. Clean <span>Recife</span></h1>
             <h2>Mais saúde, conforto e bem-estar para você</h2>
-            <p>Especialistas em higienização e impermeabilização de estofados residenciais e automotivos.</p>
+            <p>Especialistas em higienização e impermeabilização de estofados residenciais, empresariais e automotivos.</p>
             <div class="hero-buttons">
                 <a href="https://wa.me/5581993038011?text=Olá!%20Gostaria%20de%20agendar%20uma%20higienização." target="_blank" class="btn-primary"><i class="fab fa-whatsapp"></i> Agendar Agora</a>
                 <a href="#servicos" class="btn-outline">Conhecer Serviços</a>
@@ -70,6 +71,48 @@
                     <h3>Automóveis</h3>
                     <p>Higienização interna completa dos bancos do seu veículo, eliminando sujeiras impregnadas.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seção Parceria Saúde / Clínicas -->
+   <!-- Seção Parceria Saúde / Clínicas -->
+    <section id="clinicas" class="clinicas-saude" style="padding: 80px 0; background-color: var(--bg-section);">
+        <div class="container">
+            <h2 class="section-title">Atendimento Especializado para Clínicas e Área da Saúde</h2>
+            <p class="section-subtitle">O certificado de sanitização é essencial para clínicas médicas, odontológicas, estéticas e veterinárias por regulamentação legal, segurança microbiológica e credibilidade comercial.</p>
+            
+            <div class="grid-clinicas" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px;">
+                <div class="card-clinica" style="background-color: var(--bg-card); padding: 30px 20px; border-radius: 10px; border-top: 4px solid var(--primary-blue);">
+                    <i class="fas fa-file-shield icon-clinica" style="font-size: 2.5rem; color: var(--primary-blue); margin-bottom: 15px;"></i>
+                    <h3>1. Cumprimento das Normas (ANVISA)</h3>
+                    <p>A Vigilância Sanitária exige controle rigoroso e higienização periódica. O certificado comprova que o estabelecimento atende às exigências vigentes durante fiscalizações.</p>
+                </div>
+
+                <div class="card-clinica" style="background-color: var(--bg-card); padding: 30px 20px; border-radius: 10px; border-top: 4px solid var(--primary-blue);">
+                    <i class="fas fa-shield-virus icon-clinica" style="font-size: 2.5rem; color: var(--primary-blue); margin-bottom: 15px;"></i>
+                    <h3>2. Prevenção de Infecções Cruzadas</h3>
+                    <p>Clínicas possuem alto fluxo de pessoas vulneráveis. A sanitização reduz a carga microbiana de vírus, bactérias e fungos em superfícies e estofados, minimizando riscos.</p>
+                </div>
+
+                <div class="card-clinica" style="background-color: var(--bg-card); padding: 30px 20px; border-radius: 10px; border-top: 4px solid var(--primary-blue);">
+                    <i class="fas fa-award icon-clinica" style="font-size: 2.5rem; color: var(--primary-blue); margin-bottom: 15px;"></i>
+                    <h3>3. Segurança Técnica e Civil</h3>
+                    <p>Garante a utilização de produtos homologados com laudo técnico e metodologias seguras, sem riscos de intoxicação para profissionais e pacientes.</p>
+                </div>
+
+                <div class="card-clinica" style="background-color: var(--bg-card); padding: 30px 20px; border-radius: 10px; border-top: 4px solid var(--primary-blue);">
+                    <i class="fas fa-star icon-clinica" style="font-size: 2.5rem; color: var(--primary-blue); margin-bottom: 15px;"></i>
+                    <h3>4. Credibilidade e Biossegurança</h3>
+                    <p>Exibir o certificado na recepção transmite transparência, cuidado e alto padrão de biossegurança, fortalecendo a confiança dos seus pacientes.</p>
+                </div>
+            </div>
+
+            <!-- Caixa do Botão isolada com margin-top garantida -->
+            <div class="clinica-cta" style="margin-top: 50px; text-align: center; background-color: var(--bg-card); padding: 30px; border-radius: 10px; border: 1px solid #333; width: 100%; clear: both;">
+                <p style="margin-bottom: 20px; font-size: 1.1rem; color: var(--text-light);"><strong>Oferecemos contratos periódicos de sanitização para empresas e estabelecimentos de saúde.</strong></p>
+                <a href="https://wa.me/5581993038011?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20contratos%20e%20certificados%20para%20clínicas." target="_blank" class="btn-primary" style="display: inline-block;">
+                    <i class="fab fa-whatsapp"></i> Falar sobre Contrato para Clínicas
+                </a>
             </div>
         </div>
     </section>
@@ -112,11 +155,17 @@
         </div>
     </section>
 
-    <!-- Seção FAQ -->
+   <!-- Seção FAQ -->
     <section id="faq" class="faq">
         <div class="container">
             <h2 class="section-title">Dúvidas Frequentes</h2>
             <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">Qual é o horário de funcionamento de vocês? <i class="fas fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>Trabalhamos de domingo a domingo, das 08:00 às 20:00! Entendemos que a sua rotina é corrida devido ao trabalho e compromissos diários, por isso colocamos o cliente em primeiro lugar e mantemos nossa equipe sempre pronta para atender na sua melhor disponibilidade.</p>
+                    </div>
+                </div>
                 <div class="faq-item">
                     <button class="faq-question">Quanto tempo demora para o sofá secar? <i class="fas fa-chevron-down"></i></button>
                     <div class="faq-answer"><p>Em média, de 4 a 8 horas dependendo da ventilação do ambiente e do tecido, graças às nossas extratoras de alta sucção.</p></div>
